@@ -6,7 +6,7 @@
 /*   By: lomauric <lomauric@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/29 15:44:11 by lomauric          #+#    #+#             */
-/*   Updated: 2022/09/29 15:54:01 by lomauric         ###   ########.fr       */
+/*   Updated: 2022/09/29 20:35:25 by lomauric         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,7 +27,7 @@ int	*ft_range(int min, int max)
 		f[r] = min + r;
 	return (f);
 }
-
+/*
 #include <stdio.h>
 
 int	main(void)
@@ -39,3 +39,4 @@ int	main(void)
 	max = 10;
 	printf("Min = %d, Max = %d -> ", min, max);
 }
+*/
